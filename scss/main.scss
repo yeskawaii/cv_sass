@@ -1,19 +1,62 @@
-$primary-color: #272727;
-$accent-color: #ff652f;
-$text-color: #fff;
-$font-weights: (
-  "regular": 400,
-  "medium": 500,
-  "bold": 700,
-);
+@import "./resets";
+@import "./variables";
+
+@function weigth($weight-name) {
+  @return map-get($font-weights, $weight-name);
+}
+
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin theme($ligth-theme: true) {
+  @if $ligth-theme {
+    background: lighten($primary-color, 100%);
+    color: darken($text-color, 100%);
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
 
 body {
   background-color: $primary-color;
   color: $text-color;
-  font-weight: map-get($font-weights, bold);
 }
 
 .main {
-  width: 80%;
+  @include flexCenter(row);
+  //   tienen que ser del mismo tipo de valores
+  width: 80% - 40%;
   margin: 0 auto;
+
+  #{&}_paragraph1 {
+    font-weight: weigth(bold);
+
+    &:hover {
+      color: pink;
+    }
+  }
+
+  #{&}_paragraph2 {
+    @extend .main_paragraph1;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.light {
+  @include theme($ligth-theme: false);
 }
