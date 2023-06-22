@@ -10,13 +10,23 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: url("../img");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(https://cdn.pixabay.com/photo/2023/02/07/13/55/forest-7774205_1280.jpg) center top;
+  background-size: cover;
+}
+.home__name {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  border-bottom: 2px solid #fff;
+}
+.home__name--last {
+  color: #ff652f;
+  font-weight: 700;
 }
 
 body {
   background-color: #272727;
-  -moz-columns: #fff;
-       columns: #fff;
+  color: #fff;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
