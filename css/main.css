@@ -4,7 +4,7 @@
 
 header {
   position: sticky;
-  height: 15vh;
+  height: 5vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -24,6 +24,10 @@ header .nav .menu-nav .menu-nav-item {
   margin: auto;
 }
 
+main {
+  background-color: #ccc;
+  height: 95vh;
+}
 main .home {
   display: flex;
   flex-direction: column;
