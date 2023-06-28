@@ -2,6 +2,28 @@
   margin: 0;
 }
 
+header {
+  position: sticky;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+header .nav {
+  width: 100%;
+}
+header .nav .menu-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+header .nav .menu-nav .menu-nav-item {
+  margin: auto;
+}
+
 main .home {
   display: flex;
   flex-direction: column;

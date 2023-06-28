@@ -9,10 +9,25 @@
   justify-content: center;
 }
 
+header {
+  position: sticky;
+  height: 15vh;
+  @include flexCenter(row);
+  .nav {
+    width: 100%;
+    .menu-nav {
+      @include flexCenter(row);
+      justify-content: space-between;
+
+      .menu-nav-item {
+        margin: auto;
+      }
+    }
+  }
+}
+
 main {
   .home {
-    .container {
-    }
     @include flexCenter(column);
     img {
       border-radius: 50%;
