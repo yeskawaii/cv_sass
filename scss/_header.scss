@@ -2,22 +2,27 @@
   position: absolute;
   background-color: transparent;
   top: 10vh;
-  left: 50vw;
-  height: 60px;
-  width: 40vw;
+  left: 45vw;
+  width: 50vw;
 
   ul {
+    padding-left: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 60px;
+    width: 50vw;
     gap: 4vw;
 
     li {
       list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
 
       a {
+        padding: 15px;
         text-decoration: none;
         font-size: $font-size-header;
         font-weight: 1000;
@@ -34,5 +39,14 @@
         color: $black-font-color;
       }
     }
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 10vh;
+  left: 5vw;
+  img {
+    width: 60px;
   }
 }
