@@ -1,8 +1,8 @@
 .nav {
   position: absolute;
   background-color: transparent;
-  top: 2vh;
-  right: 10vw;
+  top: 10vh;
+  left: 50vw;
 }
 .nav ul {
   display: flex;
@@ -14,8 +14,13 @@
 }
 .nav ul li a {
   text-decoration: none;
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 1000;
+  color: white;
+  border-radius: 50%;
+}
+.nav ul li a:active {
+  color: rgb(160, 160, 160);
 }
 
 * {
@@ -27,13 +32,28 @@ main {
   background-color: #d7d7d7;
 }
 main .home {
+  display: flex;
+  flex-direction: "row";
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(105deg, #d7d7d7 0%, #d7d7d7 40%, black 40%, black 100%);
   height: 95vh;
+}
+main .home .information {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 50%;
 }
-main .home img {
+main .home .image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+main .home .image img {
   border-radius: 50%;
   width: 15vw;
 }

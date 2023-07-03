@@ -1,8 +1,8 @@
 .nav {
   position: absolute;
   background-color: transparent;
-  top: 2vh;
-  right: 10vw;
+  top: 10vh;
+  left: 50vw;
 
   ul {
     display: flex;
@@ -14,7 +14,13 @@
       a {
         text-decoration: none;
         font-size: $font-size-header;
-        font-weight: 800;
+        font-weight: 1000;
+        color: $white-font-color;
+        border-radius: 50%;
+
+        &:active {
+          color: $white-font-color-hover;
+        }
       }
     }
   }

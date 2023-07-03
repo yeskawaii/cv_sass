@@ -15,11 +15,28 @@
 main {
   background-color: $primary-color;
   .home {
+    @include flexCenter("row");
+
+    background: linear-gradient(
+      105deg,
+      $primary-color 0%,
+      $primary-color 40%,
+      $black-font-color 40%,
+      $black-font-color 100%
+    );
     height: 95vh;
-    @include flexCenter(column);
-    img {
-      border-radius: 50%;
-      width: 15vw;
+
+    .information {
+      @include flexCenter(column);
+      width: 50%;
+    }
+    .image {
+      @include flexCenter(column);
+      width: 50%;
+      img {
+        border-radius: 50%;
+        width: 15vw;
+      }
     }
   }
   .skills {
