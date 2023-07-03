@@ -3,11 +3,16 @@
   background-color: transparent;
   top: 10vh;
   left: 50vw;
+  height: 60px;
+  width: 40vw;
 }
 .nav ul {
   display: flex;
   flex-direction: row;
-  gap: 5vw;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  gap: 4vw;
 }
 .nav ul li {
   list-style: none;
@@ -17,10 +22,14 @@
   font-size: 18px;
   font-weight: 1000;
   color: white;
-  border-radius: 50%;
+  border-radius: 25px;
 }
 .nav ul li a:active {
   color: rgb(160, 160, 160);
+}
+.nav ul li .contactMe {
+  background-color: white;
+  color: black;
 }
 
 * {

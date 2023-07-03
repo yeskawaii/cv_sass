@@ -3,24 +3,35 @@
   background-color: transparent;
   top: 10vh;
   left: 50vw;
+  height: 60px;
+  width: 40vw;
 
   ul {
     display: flex;
     flex-direction: row;
-    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    gap: 4vw;
 
     li {
       list-style: none;
+
       a {
         text-decoration: none;
         font-size: $font-size-header;
         font-weight: 1000;
         color: $white-font-color;
-        border-radius: 50%;
+        border-radius: 25px;
 
         &:active {
           color: $white-font-color-hover;
         }
+      }
+
+      .contactMe {
+        background-color: $white-font-color;
+        color: $black-font-color;
       }
     }
   }
