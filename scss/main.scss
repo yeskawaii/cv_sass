@@ -1,7 +1,8 @@
-@import "variable";
+@import "variable", "header";
 
 * {
   margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 @mixin flexCenter($direction) {
@@ -11,31 +12,17 @@
   justify-content: center;
 }
 
-header {
-  position: sticky;
-  height: 5vh;
-  @include flexCenter(row);
-  .nav {
-    width: 100%;
-    .menu-nav {
-      @include flexCenter(row);
-      justify-content: space-between;
-
-      .menu-nav-item {
-        margin: auto;
-      }
-    }
-  }
-}
-
 main {
   background-color: $primary-color;
-  height: 95vh;
   .home {
+    height: 95vh;
     @include flexCenter(column);
     img {
       border-radius: 50%;
       width: 15vw;
     }
+  }
+  .skills {
+    height: 95vh;
   }
 }
