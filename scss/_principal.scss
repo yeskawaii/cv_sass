@@ -36,11 +36,14 @@ main {
     }
     .image {
       @include flexCenter(column);
-      justify-content: end;
+      // justify-content: end;
+      // align-items: end;
       width: 50%;
       height: 100%;
       img {
         border-radius: 25px;
+        width: 60%;
+        height: 60%;
       }
     }
   }
