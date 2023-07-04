@@ -5,6 +5,11 @@
   display: none;
 }
 
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
 .nav {
   position: absolute;
   background-color: transparent;
@@ -58,7 +63,12 @@
   position: absolute;
   top: 10vh;
   left: 5vw;
-  img {
-    width: 60px;
+  width: auto;
+  height: auto;
+
+  display: flex;
+
+  h1 {
+    margin: 0px 15px;
   }
 }

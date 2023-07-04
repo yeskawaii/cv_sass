@@ -6,6 +6,11 @@
   display: none;
 }
 
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
 .nav {
   position: absolute;
   background-color: transparent;
@@ -53,9 +58,12 @@
   position: absolute;
   top: 10vh;
   left: 5vw;
+  width: auto;
+  height: auto;
+  display: flex;
 }
-.logo img {
-  width: 60px;
+.logo h1 {
+  margin: 0px 15px;
 }
 
 * {
@@ -71,8 +79,9 @@ main .home {
   flex-direction: "row";
   align-items: center;
   justify-content: center;
+  border: 2px solid black;
   background: linear-gradient(105deg, #d7d7d7 0%, #d7d7d7 40%, black 40%, black 100%);
-  height: 95vh;
+  height: 100vh;
 }
 main .home .information {
   display: flex;
@@ -80,17 +89,21 @@ main .home .information {
   align-items: center;
   justify-content: center;
   width: 50%;
+  height: 100%;
 }
 main .home .image {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  justify-content: end;
   width: 50%;
+  height: 100%;
 }
 main .home .image img {
   border-radius: 50%;
-  width: 15vw;
+  width: 80%;
+  height: 80%;
 }
 main .skills {
   height: 95vh;
