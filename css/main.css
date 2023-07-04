@@ -103,6 +103,10 @@
   color: #ffcb74;
 }
 
+.name-1 {
+  color: #111111;
+}
+
 main .home {
   display: flex;
   flex-direction: "row";
