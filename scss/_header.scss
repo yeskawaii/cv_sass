@@ -1,3 +1,10 @@
+.computer-nav {
+  display: block;
+}
+.mobile-nav {
+  display: none;
+}
+
 .nav {
   position: absolute;
   background-color: transparent;
@@ -28,13 +35,18 @@
         font-weight: 1000;
         color: $white-font-color;
         border-radius: 25px;
+        transition: 0.8s;
 
         &:active {
           color: $white-font-color-hover;
         }
+
+        &:hover {
+          transform: scale(1.2);
+        }
       }
 
-      .contactMe {
+      .active {
         background-color: $white-font-color;
         color: $black-font-color;
       }

@@ -1,3 +1,11 @@
+.computer-nav {
+  display: block;
+}
+
+.mobile-nav {
+  display: none;
+}
+
 .nav {
   position: absolute;
   background-color: transparent;
@@ -28,11 +36,15 @@
   font-weight: 1000;
   color: white;
   border-radius: 25px;
+  transition: 0.8s;
 }
 .nav ul li a:active {
   color: rgb(160, 160, 160);
 }
-.nav ul li .contactMe {
+.nav ul li a:hover {
+  transform: scale(1.2);
+}
+.nav ul li .active {
   background-color: white;
   color: black;
 }
