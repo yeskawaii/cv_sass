@@ -1,48 +1,6 @@
-@import "variable", "header";
+@import "variable", "header", "principal";
 
 * {
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-@mixin flexCenter($direction) {
-  display: flex;
-  flex-direction: $direction;
-  align-items: center;
-  justify-content: center;
-}
-
-main {
-  background-color: $primary-color;
-  .home {
-    @include flexCenter("row");
-    border: 2px solid black;
-
-    background: linear-gradient(
-      105deg,
-      $primary-color 0%,
-      $primary-color 40%,
-      $black-font-color 40%,
-      $black-font-color 100%
-    );
-    height: 100vh;
-
-    .information {
-      @include flexCenter(column);
-      width: 50%;
-      height: 100%;
-    }
-    .image {
-      @include flexCenter(column);
-      justify-content: end;
-      width: 50%;
-      height: 100%;
-      img {
-        border-radius: 25px;
-      }
-    }
-  }
-  .skills {
-    height: 95vh;
-  }
 }

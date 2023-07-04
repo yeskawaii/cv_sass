@@ -64,14 +64,15 @@
   margin: 0px 15px;
 }
 
-* {
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+.presentation-name {
+  font-size: 2em;
 }
 
-main {
-  background-color: #d7d7d7;
+.name {
+  font-size: 3em;
+  color: #ffcb74;
 }
+
 main .home {
   display: flex;
   flex-direction: "row";
@@ -86,6 +87,7 @@ main .home .information {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-items: end;
   width: 50%;
   height: 100%;
 }
@@ -101,6 +103,8 @@ main .home .image {
 main .home .image img {
   border-radius: 25px;
 }
-main .skills {
-  height: 95vh;
+
+* {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }/*# sourceMappingURL=main.css.map */
