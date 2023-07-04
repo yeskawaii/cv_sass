@@ -1,19 +1,4 @@
-@import "variable", "header";
-
-* {
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-@mixin flexCenter($direction) {
-  display: flex;
-  flex-direction: $direction;
-  align-items: center;
-  justify-content: center;
-}
-
 main {
-  background-color: $primary-color;
   .home {
     @include flexCenter("row");
     border: 2px solid black;
@@ -41,8 +26,5 @@ main {
         border-radius: 25px;
       }
     }
-  }
-  .skills {
-    height: 95vh;
   }
 }

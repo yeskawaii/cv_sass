@@ -43,17 +43,14 @@
         transition: 0.8s;
 
         &:active {
-          color: $white-font-color-hover;
-        }
-
-        &:hover {
-          transform: scale(1.2);
+          color: $gray-font-color;
         }
       }
 
       .active {
-        background-color: $white-font-color;
-        color: $black-font-color;
+        transform: scale(1.3);
+        background-color: $gray-font-color;
+        color: $golden-font-color;
       }
     }
   }
