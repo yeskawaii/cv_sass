@@ -16,10 +16,10 @@
     <div class="computer-nav">
         <div class="logo">
             <h1 class="glyphicon glyphicon-globe spin"></h1>
-            <select class="lenguage">
-                <option value="1">Español</option>
-                <option value="2">English</option>
-                <option value="3">日本語</option>
+            <select class="lenguage" id="lenguage">
+                <option value="Español" selected>Español</option>
+                <option value="English">English</option>
+                <option value="日本語">日本語</option>
             </select>
 
             <!-- <h1 class="lenguage" id="lenguage">Español</h1> -->
@@ -27,22 +27,22 @@
         <nav class="nav">
             <ul class="menu-nav" id="nav-menu-list">
                 <li class="menu-nav-item">
-                    <a href="#home" class="glyphicon glyphicon-home active">
+                    <a href="#home" class="glyphicon glyphicon-home active" id="nav-inicio">
                         Inicio
                     </a>
                 </li>
                 <li class="menu-nav-item">
-                    <a href="#about-me" class="glyphicon glyphicon-user">
+                    <a href="#about-me" class="glyphicon glyphicon-home" id="nav-acerca">
                         Acerca de mi
                     </a>
                 </li>
                 <li class="menu-nav-item">
-                    <a href="#skills" class="glyphicon glyphicon-blackboard">
+                    <a href="#skills" class="glyphicon glyphicon-home" id="nav-skills">
                         mis proyectos
                     </a>
                 </li>
                 <li class="menu-nav-item">
-                    <a href="#contact-me" class="glyphicon glyphicon-envelope">
+                    <a href="#contact-me" class="glyphicon glyphicon-home" id="nav-contact">
                         contactame
                     </a>
                 </li>
@@ -56,8 +56,14 @@
     <main>
         <section class="home" id="home">
             <div class="information">
-                <h1>Mi nombre es:</h1>
+                <h1 id="presentacion-nombre">Mi nombre es:</h1>
                 <h1 class="presentation-name"><span class="name" id="name">Julio Yescas</span></h1>
+                <h3 id="carrera">Ingeniero en sistemas computacionales</h3>
+                <div class="contactos">
+                    <a href="https://github.com/yeskawaii"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-gitlab fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                </div>
             </div>
             <div class="image">
                 <img class="profile" src="https://avatars.githubusercontent.com/u/92493613?v=4" alt="">
@@ -78,8 +84,6 @@
                 <p>contenido 2</p>
             </div>
         </section>
-    </main>
-    <footer>
         <section class="contact-me" id="contact-me">
             <div class="left-footer">
                 <p>contenido 3</p>
@@ -88,8 +92,13 @@
                 <p>contenido 4</p>
             </div>
         </section>
+    </main>
+    <footer>
+        <div>
+            <p>ultima parte</p>
+        </div>
     </footer>
-
+    <script src="https://kit.fontawesome.com/6d3aa0f432.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 
