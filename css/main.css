@@ -28,11 +28,15 @@
 }
 
 .nav {
-  position: absolute;
-  background-color: transparent;
+  position: fixed;
+  height: 90px;
+  background-color: #111111;
   top: 10vh;
   left: 45vw;
-  width: 50vw;
+  width: 51vw;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
 }
 .nav ul {
   padding-left: 0;
@@ -100,11 +104,12 @@
 
 .name {
   font-size: 3em;
-  color: #ffcb74;
+  color: #111111;
 }
 
-.name-1 {
-  color: #111111;
+section {
+  height: 100vh;
+  background-color: #d7d7d7;
 }
 
 main .home {
@@ -112,16 +117,15 @@ main .home {
   flex-direction: "row";
   align-items: center;
   justify-content: center;
-  border: 2px solid black;
   background: linear-gradient(105deg, #d7d7d7 0%, #d7d7d7 40%, #111111 40%, #111111 100%);
-  height: 100vh;
 }
 main .home .information {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  align-items: end;
+  align-items: start;
+  padding: 25px;
   width: 53%;
   height: 100%;
 }
@@ -141,6 +145,7 @@ main .home .image img {
 
 * {
   margin: 0;
+  scroll-behavior: smooth;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
