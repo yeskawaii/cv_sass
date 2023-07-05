@@ -40,9 +40,6 @@ section {
 }
 
 main {
-  .about-me {
-    background-color: $primary-color;
-  }
   .separated {
     @include flexCenter("row");
     height: 85vh;

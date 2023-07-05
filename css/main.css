@@ -138,9 +138,6 @@ section {
   height: 100vh;
 }
 
-main .about-me {
-  background-color: #d7d7d7;
-}
 main .separated {
   display: flex;
   flex-direction: "row";
@@ -187,6 +184,11 @@ main .home .image img {
   border-radius: 25px;
   width: 60%;
   height: 60%;
+}
+
+.about-me {
+  background: rgb(246, 246, 246);
+  background: radial-gradient(circle, rgb(246, 246, 246) 0%, rgb(215, 215, 215) 100%);
 }
 
 * {
