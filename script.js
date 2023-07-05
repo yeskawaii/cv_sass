@@ -19,7 +19,7 @@ const data = {
   },
   日本語: {
     value1: "日本語",
-    value2: "わたしに",
+    value2: "私について",
     value3: "プロジェクト",
     value4: "メール",
     value5: "お名前　は：",
