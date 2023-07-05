@@ -37,13 +37,29 @@
 
 section {
   height: 100vh;
-  background-color: $primary-color;
 }
 
 main {
-  .home {
+  .about-me {
+    background-color: $primary-color;
+  }
+  .separated {
     @include flexCenter("row");
+    height: 85vh;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    //@include flexCenter("column");
     //border: 2px solid black;
+
+    &-footer {
+      @include flexCenter("row");
+      color: $white-font-color;
+      height: 15vh;
+      width: 100%;
+      background-color: $gray-font-color;
+    }
 
     background: linear-gradient(
       105deg,
@@ -62,8 +78,9 @@ main {
     }
     .image {
       @include flexCenter(column);
-      // justify-content: end;
-      // align-items: end;
+
+      justify-content: end;
+      align-items: end;
       width: 49%;
       height: 100%;
       img {
