@@ -72,7 +72,7 @@
 .nav ul li .active {
   transform: scale(1.3);
   background-color: #3f3f3f;
-  color: #ffcb74;
+  color: #d83e3e;
 }
 
 .spin {
@@ -107,7 +107,7 @@
 
 .name {
   font-size: 3em;
-  color: #111111;
+  color: #d83e3e;
 }
 
 .contactos {
