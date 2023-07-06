@@ -56,10 +56,12 @@ lenguageOption.addEventListener("change", function () {
   var aboutMe = document.getElementById("nav-acerca");
   var skills = document.getElementById("nav-skills");
   var contact = document.getElementById("nav-contact");
+  var presentacionNombre = document.getElementById("presentacion-nombre");
 
   home.classList.add("oculto");
   aboutMe.classList.add("oculto");
   skills.classList.add("oculto");
+  contact.classList.add("oculto");
 
   setTimeout(function () {
     if (selectedData) {
@@ -70,11 +72,11 @@ lenguageOption.addEventListener("change", function () {
       skills.innerHTML = selectedData.value3;
       skills.classList.remove("oculto");
       contact.innerHTML = selectedData.value4;
-      document.getElementById("presentacion-nombre").innerHTML =
-        selectedData.value5;
+      contact.classList.remove("oculto");
+      presentacionNombre.innerHTML = selectedData.value5;
       document.getElementById("name").innerHTML = selectedData.value6;
       document.getElementById("carrera").innerHTML = selectedData.value7;
-      // document.getElementById("nav-inicio").innerHTML = selectedData.value1;
+      //document.getElementById("").innerHTML = selectedData.value1;
       // document.getElementById("nav-inicio").innerHTML = selectedData.value1;
       // document.getElementById("nav-inicio").innerHTML = selectedData.value1;
       // document.getElementById("nav-inicio").innerHTML = selectedData.value1;

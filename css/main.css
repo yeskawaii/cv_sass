@@ -187,11 +187,6 @@ main .home .image img {
   height: 60%;
 }
 
-#home {
-  opacity: 1;
-  transition: opacity 0.5s ease;
-}
-
 .oculto {
   opacity: 0;
 }
