@@ -42,7 +42,7 @@ section {
 main {
   .separated {
     @include flexCenter("row");
-    height: 85vh;
+    height: 90vh;
   }
   .home {
     display: flex;
@@ -53,18 +53,20 @@ main {
     &-footer {
       @include flexCenter("row");
       color: $white-font-color;
-      height: 15vh;
+      height: 10vh;
       width: 100%;
       background-color: $gray-font-color;
+      background-image: url("https://www.turgutkaraca.com.tr/wp-content/uploads/2017/03/footer-bg.jpg");
     }
 
-    background: linear-gradient(
-      105deg,
-      $primary-color 0%,
-      $primary-color 40%,
-      $black-font-color 40%,
-      $black-font-color 100%
-    );
+    background-image: linear-gradient(
+        105deg,
+        $primary-color 0%,
+        $primary-color 40%,
+        $black-font-color 40%,
+        $black-font-color 100%
+      ),
+      url("https://www.turgutkaraca.com.tr/wp-content/uploads/2017/03/footer-bg.jpg");
 
     .information {
       @include flexCenter(column);
@@ -87,4 +89,13 @@ main {
       }
     }
   }
+}
+
+#home {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.oculto {
+  opacity: 0;
 }

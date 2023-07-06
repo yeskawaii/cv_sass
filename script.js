@@ -52,27 +52,33 @@ const lenguageOption = document.getElementById("lenguage");
 lenguageOption.addEventListener("change", function () {
   const selectedValue = lenguageOption.value;
   const selectedData = data[selectedValue];
+  var home = document.getElementById("nav-inicio");
+  var aboutMe = document.getElementById("nav-acerca");
+  var skills = document.getElementById("nav-skills");
+  var contact = document.getElementById("nav-contact");
 
-  if (selectedData) {
-    // const value1 = selectedData.value1;
-    // const value2 = selectedData.value2;
-    //const navInicio = document.getElementById("nav-inicio");
+  home.classList.add("oculto");
+  aboutMe.classList.add("oculto");
+  skills.classList.add("oculto");
 
-    // Asigna los valores al campo de texto
-
-    //document.getElementById("nav-")
-    document.getElementById("nav-inicio").innerHTML = selectedData.value1;
-    document.getElementById("nav-acerca").innerHTML = selectedData.value2;
-    document.getElementById("nav-skills").innerHTML = selectedData.value3;
-    document.getElementById("nav-contact").innerHTML = selectedData.value4;
-    document.getElementById("presentacion-nombre").innerHTML =
-      selectedData.value5;
-    document.getElementById("name").innerHTML = selectedData.value6;
-    document.getElementById("carrera").innerHTML = selectedData.value7;
-    // document.getElementById("nav-inicio").innerHTML = selectedData.value1;
-    // document.getElementById("nav-inicio").innerHTML = selectedData.value1;
-    // document.getElementById("nav-inicio").innerHTML = selectedData.value1;
-    // document.getElementById("nav-inicio").innerHTML = selectedData.value1;
-    //console.log(value1 + " " + value2);
-  }
+  setTimeout(function () {
+    if (selectedData) {
+      home.innerHTML = selectedData.value1;
+      home.classList.remove("oculto");
+      aboutMe.innerHTML = selectedData.value2;
+      aboutMe.classList.remove("oculto");
+      skills.innerHTML = selectedData.value3;
+      skills.classList.remove("oculto");
+      contact.innerHTML = selectedData.value4;
+      document.getElementById("presentacion-nombre").innerHTML =
+        selectedData.value5;
+      document.getElementById("name").innerHTML = selectedData.value6;
+      document.getElementById("carrera").innerHTML = selectedData.value7;
+      // document.getElementById("nav-inicio").innerHTML = selectedData.value1;
+      // document.getElementById("nav-inicio").innerHTML = selectedData.value1;
+      // document.getElementById("nav-inicio").innerHTML = selectedData.value1;
+      // document.getElementById("nav-inicio").innerHTML = selectedData.value1;
+      //console.log(value1 + " " + value2);
+    }
+  }, 300);
 });
