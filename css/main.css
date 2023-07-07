@@ -181,7 +181,7 @@ main .home .image {
   align-items: center;
   justify-content: center;
   justify-content: end;
-  align-items: end;
+  align-items: center;
   width: 49%;
   height: 100%;
 }
@@ -196,8 +196,7 @@ main .home .image img {
 }
 
 .about-me {
-  background: rgb(246, 246, 246);
-  background: radial-gradient(circle, rgb(246, 246, 246) 0%, rgb(215, 215, 215) 100%);
+  background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
 
 .mobile-nav {
@@ -244,7 +243,7 @@ main .home .image img {
     transform: scale(0.8);
   }
   .home {
-    background-image: linear-gradient(160deg, #d7d7d7 0%, #f6f6f6 15%, #f6f6f6 35%, #d7d7d7 70%, #111111 70%, #111111 100%), url("https://www.turgutkaraca.com.tr/wp-content/uploads/2017/03/footer-bg.jpg");
+    background-image: linear-gradient(160deg, #d7d7d7 0%, #f6f6f6 15%, #f6f6f6 35%, #d7d7d7 70%, #111111 70%, #3f3f3f 85%, #3f3f3f 95%, #111111 100%), url("https://www.turgutkaraca.com.tr/wp-content/uploads/2017/03/footer-bg.jpg");
   }
 }
 @media (max-width: 1200px) and (min-width: 800px) {
@@ -261,7 +260,7 @@ main .home .image img {
     color: #ffcb74;
   }
   .home {
-    background-image: linear-gradient(105deg, #d7d7d7 0%, #f6f6f6 15%, #f6f6f6 35%, #d7d7d7 40%, #111111 40%, #111111 100%), url("https://www.turgutkaraca.com.tr/wp-content/uploads/2017/03/footer-bg.jpg");
+    background-image: linear-gradient(105deg, #d7d7d7 0%, #f6f6f6 15%, #f6f6f6 35%, #d7d7d7 40%, #111111 40%, #3f3f3f 75%, #3f3f3f 95%, #111111 100%), url("https://www.turgutkaraca.com.tr/wp-content/uploads/2017/03/footer-bg.jpg");
   }
 }
 @media (min-width: 1200px) {
@@ -277,6 +276,6 @@ main .home .image img {
     overflow: none;
   }
   .home {
-    background-image: linear-gradient(105deg, #d7d7d7 0%, #f6f6f6 15%, #f6f6f6 35%, #d7d7d7 40%, #111111 40%, #111111 100%), url("https://www.turgutkaraca.com.tr/wp-content/uploads/2017/03/footer-bg.jpg");
+    background-image: linear-gradient(105deg, #d7d7d7 0%, #f6f6f6 15%, #f6f6f6 35%, #d7d7d7 40%, #111111 40%, #3f3f3f 75%, #3f3f3f 95%, #111111 100%), url("https://www.turgutkaraca.com.tr/wp-content/uploads/2017/03/footer-bg.jpg");
   }
 }/*# sourceMappingURL=main.css.map */
