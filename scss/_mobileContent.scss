@@ -1,3 +1,10 @@
 .mobile-nav {
   position: fixed;
 }
+
+.mobile-notice {
+  height: 100vh;
+  @include flexCenter(row);
+  justify-content: center;
+  align-items: center;
+}

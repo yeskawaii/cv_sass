@@ -204,6 +204,16 @@ main .home .image img {
   position: fixed;
 }
 
+.mobile-notice {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0;
   scroll-behavior: smooth;
@@ -229,7 +239,8 @@ main .home .image img {
     display: none;
   }
   .logo {
-    top: 15px;
+    top: 30px;
+    left: 15px;
     transform: scale(0.8);
   }
   .home {
