@@ -3,7 +3,7 @@ const data = {
     value1: "Español",
     value2: "Acerca de mi",
     value3: "Mis projectos",
-    value4: "Contactame",
+    value4: "Mensaje",
     value5: "Mi nombre es:",
     value6: "Julio Yescas",
     value7: "Ingeniero en sistemas computacionales",
