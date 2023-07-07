@@ -248,6 +248,12 @@ main .home .image img {
   }
 }
 @media (max-width: 1200px) and (min-width: 800px) {
+  .computer-content {
+    display: block;
+  }
+  .mobile-content {
+    display: none;
+  }
   ul {
     transform: scale(0.8);
   }
@@ -259,6 +265,12 @@ main .home .image img {
   }
 }
 @media (min-width: 1200px) {
+  .computer-content {
+    display: block;
+  }
+  .mobile-content {
+    display: none;
+  }
   .nav {
     width: 50%;
     height: 90px;
