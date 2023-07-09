@@ -198,6 +198,17 @@ main .home .image img {
 .about-me {
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
+.about-me .icons-skills {
+  display: flex;
+  flex-direction: "row";
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  height: 80vh;
+}
+.about-me .bigger-icon {
+  transform: scale(8);
+}
 
 .mobile-nav {
   position: fixed;
