@@ -28,9 +28,9 @@
 
 .nav {
   position: fixed;
-  height: 60px;
+  height: auto;
   background-color: transparent;
-  top: 10vh;
+  top: 5vh;
   right: 2vw;
   width: 60%;
   border-radius: 25px;
@@ -93,7 +93,7 @@
 
 .logo {
   position: absolute;
-  top: 10vh;
+  top: 7.5vh;
   left: 5vw;
   width: auto;
   height: auto;
