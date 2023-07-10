@@ -40,7 +40,7 @@
   overflow: hidden;
 }
 .nav ul {
-  width: 100%;
+  width: 85%;
   padding-left: 0;
   display: flex;
   flex-direction: row;
@@ -390,7 +390,6 @@ main .home .image img {
   .nav {
     width: 50%;
     height: 90px;
-    overflow: none;
   }
   .home {
     background-image: linear-gradient(105deg, #d7d7d7 0%, #f6f6f6 15%, #f6f6f6 35%, #d7d7d7 40%, #111111 40%, #3f3f3f 75%, #3f3f3f 95%, #111111 100%), url("https://www.turgutkaraca.com.tr/wp-content/uploads/2017/03/footer-bg.jpg");
