@@ -84,3 +84,17 @@ lenguageOption.addEventListener("change", function () {
     }
   }, 300);
 });
+
+//** Codigo para cambio de color de 100vh */
+
+var miNav = document.getElementById("nav");
+window.addEventListener("scroll", function () {
+  var alturaVentana = window.innerHeight;
+  var scrollActual = window.scrollY;
+
+  if (scrollActual > alturaVentana - 1) {
+    miNav.classList.add("scroll-activo");
+  } else {
+    miNav.classList.remove("scroll-activo");
+  }
+});

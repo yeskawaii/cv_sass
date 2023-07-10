@@ -29,7 +29,7 @@
 .nav {
   position: fixed;
   height: 60px;
-  background-color: $black-font-color;
+  background-color: transparent;
   top: 10vh;
   right: 2vw;
   width: 60%;
@@ -70,15 +70,15 @@
         gap: 15px;
 
         &:active {
-          color: $gray-font-color;
+          color: $golden-font-color;
         }
       }
 
       .active {
         max-width: 100%;
         transform: scale(1.3);
-        background-color: $gray-font-color;
-        color: $golden-font-color;
+        background-color: $golden-font-color;
+        color: $gray-font-color;
       }
     }
   }
@@ -108,5 +108,15 @@
     padding: 5px;
     color: $golden-font-color;
     margin: 0px 25px;
+  }
+}
+
+.scroll-activo {
+  background-color: transparent;
+  a {
+    color: $gray-font-color !important;
+  }
+  .active {
+    background-color: $golden-font-color !important;
   }
 }
