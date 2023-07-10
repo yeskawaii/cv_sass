@@ -5,4 +5,14 @@
     $white-font-color 25%,
     $primary-color 100%
   );
+
+  .icons-skills {
+    @include flexCenter("row");
+    justify-content: space-around;
+    height: 80vh;
+  }
+
+  .bigger-icon {
+    transform: scale(8);
+  }
 }
