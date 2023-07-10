@@ -92,7 +92,7 @@ window.addEventListener("scroll", function () {
   var alturaVentana = window.innerHeight;
   var scrollActual = window.scrollY;
 
-  if (scrollActual > alturaVentana - 1) {
+  if (scrollActual > alturaVentana - 101) {
     miNav.classList.add("scroll-activo");
   } else {
     miNav.classList.remove("scroll-activo");

@@ -208,16 +208,112 @@ main .home .image img {
 .about-me {
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
+.about-me .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
 .about-me .icons-skills {
   display: flex;
-  flex-direction: "row";
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   justify-content: space-around;
-  height: 80vh;
+  height: auto;
+  width: 100%;
 }
 .about-me .bigger-icon {
-  transform: scale(8);
+  font-size: 7vw;
+  cursor: pointer;
+}
+.about-me img {
+  cursor: pointer;
+  width: 7vw;
+  transition: all 0.9s ease;
+}
+.about-me img:hover {
+  transform: scale(0.8);
+}
+.about-me #html-icon {
+  color: #d84924;
+  transition: all 0.9s ease;
+}
+.about-me #html-icon:hover {
+  transform: scale(0.8);
+}
+.about-me #css-icon {
+  color: #214ce5;
+  transition: all 0.9s ease;
+}
+.about-me #css-icon:hover {
+  transform: scale(0.8);
+}
+.about-me #sass-icon {
+  color: #c36291;
+  transition: all 0.9s ease;
+}
+.about-me #sass-icon:hover {
+  transform: scale(0.8);
+}
+.about-me #js-icon {
+  color: #ead41c;
+  transition: all 0.9s ease;
+}
+.about-me #js-icon:hover {
+  transform: scale(0.8);
+}
+.about-me #php-icon {
+  color: #828bb4;
+  transition: all 0.9s ease;
+}
+.about-me #php-icon:hover {
+  transform: scale(0.8);
+}
+.about-me #python-icon {
+  color: #376c9b;
+  transition: all 0.9s ease;
+}
+.about-me #python-icon:hover {
+  transform: scale(0.8);
+}
+.about-me #java-icon {
+  color: #0981bd;
+  transition: all 0.9s ease;
+}
+.about-me #java-icon:hover {
+  transform: scale(0.8);
+}
+.about-me #git-icon {
+  color: #f14f34;
+  transition: all 0.9s ease;
+}
+.about-me #git-icon:hover {
+  transform: scale(0.8);
+}
+.about-me #laravel-icon {
+  color: #ff291a;
+  transition: all 0.9s ease;
+}
+.about-me #laravel-icon:hover {
+  transform: scale(0.8);
+}
+.about-me #node-icon {
+  color: #21ab58;
+  transition: all 0.9s ease;
+}
+.about-me #node-icon:hover {
+  transform: scale(0.8);
+}
+.about-me #bootstrap-icon {
+  color: #7712ee;
+  transition: all 0.9s ease;
+}
+.about-me #bootstrap-icon:hover {
+  transform: scale(0.8);
 }
 
 .mobile-nav {
