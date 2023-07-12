@@ -244,8 +244,19 @@ main .home .image img {
 .about-me img:hover {
   transform: scale(0.8);
 }
-.about-me .element {
-  animation: rotateAnimation 10s linear infinite;
+.about-me .animate {
+  animation: moverArribaAbajo 2s infinite;
+}
+@keyframes moverArribaAbajo {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .about-me #html-icon {
   color: #d84924;

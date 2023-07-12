@@ -98,3 +98,24 @@ window.addEventListener("scroll", function () {
     miNav.classList.remove("scroll-activo");
   }
 });
+
+//* codigo para los que los iconos se desplazen */
+
+function animarOla() {
+  var elementos = document.getElementsByClassName("element");
+  var duracionAnimacion = 2000; // Duración de la animación en milisegundos
+  var retrasoEntreElementos = 200; // Retraso en milisegundos entre cada elemento
+
+  for (var i = 0; i < elementos.length; i++) {
+    (function (index) {
+      setTimeout(function () {
+        elementos[index].classList.add("animate");
+        setTimeout(function () {
+          elementos[index].classList.remove("animate");
+        }, duracionAnimacion);
+      }, i * retrasoEntreElementos);
+    })(i);
+  }
+}
+
+animarOla();
