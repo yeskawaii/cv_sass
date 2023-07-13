@@ -12,6 +12,7 @@
 
   .container {
     @include flexCenter(column);
+    justify-content: space-around;
     margin: 0;
     width: 100%;
     height: 80vh;

@@ -213,6 +213,7 @@ main .home .image img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  justify-content: space-around;
   margin: 0;
   width: 100%;
   height: 80vh;
@@ -362,6 +363,12 @@ main .home .image img {
   margin: 0;
   scroll-behavior: smooth;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main-header {
+  font-size: 2.8vw;
+  padding: 1.2vw;
+  border: 2px solid black;
 }
 
 @keyframes spin {

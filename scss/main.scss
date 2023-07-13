@@ -6,6 +6,12 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.main-header {
+  font-size: 2.8vw;
+  padding: 1.2vw;
+  border: 2px solid black;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
