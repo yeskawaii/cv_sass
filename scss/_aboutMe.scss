@@ -6,13 +6,23 @@
     $primary-color 100%
   );
 
-  // h1 {
-  //   margin: 10vh;
-  // }
+  .idiomas-info {
+    @include flexCenter(column);
+    //text-align: center;
+    height: 100%;
+    width: 100%;
+
+    .idioma-element {
+      @include flexCenter(row);
+      justify-content: flex-start;
+      gap: 2vw;
+      width: 50%;
+    }
+  }
 
   .container {
     @include flexCenter(column);
-    justify-content: space-around;
+    justify-content: end;
     margin: 0;
     width: 100%;
     height: 80vh;
@@ -30,7 +40,7 @@
     @include flexCenter(row);
     justify-content: space-around;
     align-items: end;
-    height: auto;
+    height: 65%;
     width: 100%;
   }
 
