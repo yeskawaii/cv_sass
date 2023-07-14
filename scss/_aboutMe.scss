@@ -17,6 +17,11 @@
       justify-content: flex-start;
       gap: 2vw;
       width: 50%;
+      margin-bottom: 2vh;
+
+      h2 {
+        font-size: $font-size-titles;
+      }
     }
   }
 
