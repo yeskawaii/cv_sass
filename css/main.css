@@ -250,7 +250,7 @@ main .home .image img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  justify-content: center;
+  justify-content: start;
 }
 .about-me .icons-skills {
   display: flex;
@@ -258,8 +258,7 @@ main .home .image img {
   align-items: center;
   justify-content: center;
   justify-content: space-around;
-  align-items: end;
-  height: 65%;
+  height: 69%;
   width: 100%;
 }
 .about-me .bigger-icon {
