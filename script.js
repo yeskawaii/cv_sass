@@ -1,6 +1,6 @@
 const data = {
   Español: {
-    value1: "Español",
+    value1: "Inicio",
     value2: "Acerca de mi",
     value3: "Mis projectos",
     value4: "Mensaje",
@@ -20,7 +20,7 @@ const data = {
     value17: "Conocimientos",
   },
   English: {
-    value1: "English",
+    value1: "Home",
     value2: "About me",
     value3: "My projects",
     value4: "Contact me",
@@ -40,7 +40,7 @@ const data = {
     value17: "knowledge",
   },
   日本語: {
-    value1: "日本語",
+    value1: "ホーム",
     value2: "私について",
     value3: "プロジェクト",
     value4: "メール",
@@ -49,7 +49,7 @@ const data = {
     value7: "コンピューター・システム・エンジニア",
     value8: "私について",
     value9: "体験",
-    value10: "モレリア工科大学 の　ウエブページ　を　参加しました。",
+    value10: "モレリア工科大学 の　ウエブサイト　を　参加しました。",
     value11: "アルキモ社　の　システムアシスタント。",
     value12: "研究",
     value13: "コンピューター・システム・エンジニア",
