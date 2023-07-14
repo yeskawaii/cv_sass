@@ -47,10 +47,9 @@ const data = {
     value5: "お名前　は：",
     value6: "フリオ・ジェスカス",
     value7: "コンピューター・システム・エンジニア",
-    value8: "Acerca de mi",
-    value9: "Experiencia",
-    value10:
-      "Participacion en la pagina web del Instituto Tecnologico de Morelia.",
+    value8: "私について",
+    value9: "体験",
+    value10: "モレリア工科大学 の　ウエブページ　を　参加しました",
     value11: "Auxiliar de sistemas en empresa arquimo.",
     value12: "",
     value13: "",
