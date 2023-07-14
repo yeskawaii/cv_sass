@@ -216,6 +216,9 @@ main .home .image img {
   height: 100%;
   width: 100%;
 }
+.about-me .idiomas-info i {
+  font-size: 2em;
+}
 .about-me .idiomas-info .idioma-element {
   display: flex;
   flex-direction: row;
@@ -223,7 +226,7 @@ main .home .image img {
   justify-content: center;
   justify-content: flex-start;
   gap: 2vw;
-  width: 50%;
+  width: 70%;
   margin-bottom: 2vh;
 }
 .about-me .idiomas-info .idioma-element h2 {

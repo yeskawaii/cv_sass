@@ -12,11 +12,15 @@
     height: 100%;
     width: 100%;
 
+    i {
+      font-size: $font-size-titles;
+    }
+
     .idioma-element {
       @include flexCenter(row);
       justify-content: flex-start;
       gap: 2vw;
-      width: 50%;
+      width: 70%;
       margin-bottom: 2vh;
 
       h2 {
