@@ -13,7 +13,8 @@
     width: 100%;
 
     i {
-      font-size: $font-size-titles;
+      font-size: 2.5vw;
+      cursor: pointer;
     }
 
     .idioma-element {
@@ -22,6 +23,11 @@
       gap: 2vw;
       width: 70%;
       margin-bottom: 2vh;
+
+      img {
+        font-size: 4vw;
+        cursor: pointer;
+      }
 
       h2 {
         font-size: $font-size-titles;
