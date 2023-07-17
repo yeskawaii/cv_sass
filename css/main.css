@@ -386,11 +386,15 @@ main .home .image img {
   margin-top: 15vh;
 }
 .projects .personal {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+  grid-template-rows: repeat(2, 1fr);
   gap: 1.2vw;
+  width: 100%;
+  height: 100%;
+}
+.projects .personal .project-item {
+  text-align: center;
 }
 
 .mobile-nav {
