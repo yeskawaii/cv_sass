@@ -13,11 +13,11 @@
   border: 2px solid black;
   border-image: linear-gradient(
     60deg,
-    $black-font-color 0%,
+    $golden-font-color 0%,
     transparent 35%,
-    $black-font-color 40%,
+    $golden-font-color 40%,
     transparent 75%,
-    $black-font-color 76%,
+    $golden-font-color 76%,
     transparent 100%
   );
   border-image-slice: 20%;

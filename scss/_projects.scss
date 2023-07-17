@@ -11,4 +11,9 @@
   .top-gap {
     margin-top: 15vh;
   }
+
+  .personal {
+    @include flexCenter(row);
+    gap: 1.2vw;
+  }
 }

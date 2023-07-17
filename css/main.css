@@ -385,6 +385,13 @@ main .home .image img {
 .projects .top-gap {
   margin-top: 15vh;
 }
+.projects .personal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2vw;
+}
 
 .mobile-nav {
   position: fixed;
@@ -410,8 +417,8 @@ main .home .image img {
   font-size: 2.8vw;
   padding: 1.2vw;
   border: 2px solid black;
-  -o-border-image: linear-gradient(60deg, #111111 0%, transparent 35%, #111111 40%, transparent 75%, #111111 76%, transparent 100%);
-     border-image: linear-gradient(60deg, #111111 0%, transparent 35%, #111111 40%, transparent 75%, #111111 76%, transparent 100%);
+  -o-border-image: linear-gradient(60deg, #ffcb74 0%, transparent 35%, #ffcb74 40%, transparent 75%, #ffcb74 76%, transparent 100%);
+     border-image: linear-gradient(60deg, #ffcb74 0%, transparent 35%, #ffcb74 40%, transparent 75%, #ffcb74 76%, transparent 100%);
   border-image-slice: 20%;
   background-color: transparent;
   display: inline-block;
