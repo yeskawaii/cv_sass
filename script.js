@@ -86,7 +86,7 @@ lenguageOption.addEventListener("change", function () {
   const selectedData = data[selectedValue];
   var home = document.getElementById("nav-inicio");
   var aboutMe = document.getElementById("nav-acerca");
-  var skills = document.getElementById("nav-skills");
+  var skills = document.getElementById("nav-projects");
   var contact = document.getElementById("nav-contact");
   var presentacionNombre = document.getElementById("presentacion-nombre");
 

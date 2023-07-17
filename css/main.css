@@ -284,6 +284,29 @@ main .home .image img {
 .about-me .animate {
   animation: moverArribaAbajo 2s infinite;
 }
+.about-me .link-about {
+  color: #d83e3e;
+  transition: all 0.5s ease;
+  animation: moverLados 2s infinite;
+}
+.about-me .link-about:hover {
+  color: #ffcb74;
+  transform: scale(0.5);
+}
+@keyframes moverLados {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 @keyframes moverArribaAbajo {
   0% {
     transform: translateY(0);
