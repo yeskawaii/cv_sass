@@ -1,7 +1,6 @@
 .projects {
   @include flexCenter(column);
   justify-content: center;
-  height: auto;
   flex-wrap: wrap;
   background: radial-gradient(
     circle,

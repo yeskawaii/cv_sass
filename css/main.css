@@ -150,7 +150,8 @@
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
 }
 
 main .separated {
@@ -380,7 +381,6 @@ main .home .image img {
   align-items: center;
   justify-content: center;
   justify-content: center;
-  height: auto;
   flex-wrap: wrap;
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
