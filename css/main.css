@@ -380,19 +380,21 @@ main .home .image img {
   align-items: center;
   justify-content: center;
   justify-content: center;
+  height: auto;
+  flex-wrap: wrap;
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
 .projects .personal {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
   grid-template-rows: repeat(2, 1fr);
-  gap: 1.2vw;
   width: 80%;
-  height: 65%;
+  height: auto;
   margin: 0;
 }
 .projects .personal .project-item {
   text-align: center;
+  padding: 15px;
   border-radius: 25px;
 }
 .projects .personal .project-1 {
@@ -401,7 +403,7 @@ main .home .image img {
 }
 .projects .personal .project-2 {
   width: 100%;
-  height: auto;
+  height: 20%;
 }
 .projects .personal img {
   border-radius: 25px;

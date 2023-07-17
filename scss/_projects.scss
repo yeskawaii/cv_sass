@@ -1,6 +1,8 @@
 .projects {
   @include flexCenter(column);
   justify-content: center;
+  height: auto;
+  flex-wrap: wrap;
   background: radial-gradient(
     circle,
     white 0%,
@@ -12,14 +14,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
     grid-template-rows: repeat(2, 1fr);
-    gap: 1.2vw;
     width: 80%;
-    height: 65%;
+    height: auto;
     margin: 0;
 
     .project-item {
       text-align: center;
-      //padding: 15px;
+      padding: 15px;
       border-radius: 25px;
       //border: 2px solid $black-font-color;
     }
@@ -31,7 +32,7 @@
     }
     .project-2 {
       width: 100%;
-      height: auto;
+      height: 20%;
     }
 
     img {
