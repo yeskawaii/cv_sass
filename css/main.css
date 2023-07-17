@@ -379,11 +379,8 @@ main .home .image img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  justify-content: start;
+  justify-content: center;
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
-}
-.projects .top-gap {
-  margin: 15vh 0px 5vh 0;
 }
 .projects .personal {
   display: grid;
@@ -392,11 +389,19 @@ main .home .image img {
   gap: 1.2vw;
   width: 80%;
   height: 65%;
+  margin: 0;
 }
 .projects .personal .project-item {
   text-align: center;
   border-radius: 25px;
-  border: 2px solid #111111;
+}
+.projects .personal .project-1 {
+  width: 100%;
+  height: 80%;
+}
+.projects .personal .project-2 {
+  width: 100%;
+  height: auto;
 }
 .projects .personal img {
   border-radius: 25px;
