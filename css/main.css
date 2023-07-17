@@ -380,14 +380,16 @@ main .home .image img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
+.projects .top-gap {
+  margin: 10vh 0 5vh 0;
+}
 .projects .personal {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   width: 80%;
   height: auto;
   margin: 0;

@@ -1,6 +1,6 @@
 .projects {
   @include flexCenter(column);
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   background: radial-gradient(
     circle,
@@ -9,10 +9,13 @@
     $primary-color 100%
   );
 
+  .top-gap {
+    margin: 10vh 0 5vh 0;
+  }
+
   .personal {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 80%;
     height: auto;
     margin: 0;
