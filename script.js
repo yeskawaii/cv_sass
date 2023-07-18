@@ -145,14 +145,12 @@ window.addEventListener("scroll", function () {
 
 function animarOla() {
   var elementos = document.getElementsByClassName("element");
-  var duracionAnimacion = 300; // Duración de la animación en milisegundos
-  var retrasoEntreElementos = 300; // Retraso en milisegundos entre cada elemento
   var index = 0;
   function animarElemento() {
     elementos[index].classList.toggle("animate");
-    index = (index + 1) % elementos.length;
+    index++;
   }
-  setInterval(animarElemento, duracionAnimacion + retrasoEntreElementos);
+  setInterval(animarElemento, 150);
 }
 
 animarOla();
