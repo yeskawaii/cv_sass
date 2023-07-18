@@ -78,7 +78,7 @@
         max-width: 100%;
         transform: scale(1.3);
         background-color: $golden-font-color;
-        color: $gray-font-color;
+        color: $grey-font-color;
       }
     }
   }
@@ -114,7 +114,7 @@
 .scroll-activo {
   background-color: transparent;
   a {
-    color: $gray-font-color !important;
+    color: $grey-font-color !important;
   }
   .active {
     background-color: $golden-font-color !important;

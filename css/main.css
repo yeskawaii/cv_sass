@@ -290,7 +290,7 @@ main .home .image img {
   animation: moverLados 2s infinite;
 }
 .about-me .link-about:hover {
-  color: #ffcb74;
+  color: #3f3f3f;
   transform: scale(0.5);
 }
 @keyframes moverLados {
