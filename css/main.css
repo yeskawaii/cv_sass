@@ -399,42 +399,56 @@ main .home .image img {
   transform: scale(0.8);
 }
 
-.projects {
+.projects .computer-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   justify-content: start;
   flex-wrap: wrap;
+  min-height: 100vh;
+  height: auto;
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
-.projects .top-gap {
+.projects .computer-content .top-gap {
   margin: 10vh 0 5vh 0;
 }
-.projects .personal {
+.projects .computer-content .personal {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 80%;
   height: auto;
   margin: 0;
 }
-.projects .personal .project-item {
+.projects .computer-content .personal .project-item {
   text-align: center;
   padding: 15px;
   border-radius: 25px;
 }
-.projects .personal .project-1 {
+.projects .computer-content .personal .project-1 {
   width: 100%;
   height: 80%;
 }
-.projects .personal .project-2 {
+.projects .computer-content .personal .project-2 {
   width: 100%;
   height: 20%;
 }
-.projects .personal img {
+.projects .computer-content .personal img {
   border-radius: 25px;
   width: 100%;
   height: 100%;
+}
+
+.contact-me .computer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  height: auto;
+  background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
 
 .mobile-nav {

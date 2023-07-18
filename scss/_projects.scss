@@ -1,46 +1,50 @@
 .projects {
-  @include flexCenter(column);
-  justify-content: start;
-  flex-wrap: wrap;
-  background: radial-gradient(
-    circle,
-    white 0%,
-    $white-font-color 25%,
-    $primary-color 100%
-  );
-
-  .top-gap {
-    margin: 10vh 0 5vh 0;
-  }
-
-  .personal {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 80%;
+  .computer-content {
+    @include flexCenter(column);
+    justify-content: start;
+    flex-wrap: wrap;
+    min-height: 100vh;
     height: auto;
-    margin: 0;
+    background: radial-gradient(
+      circle,
+      white 0%,
+      $white-font-color 25%,
+      $primary-color 100%
+    );
 
-    .project-item {
-      text-align: center;
-      padding: 15px;
-      border-radius: 25px;
-      //border: 2px solid $black-font-color;
+    .top-gap {
+      margin: 10vh 0 5vh 0;
     }
 
-    .project-1 {
-      width: 100%;
-      height: 80%;
-      //padding: 25px;
-    }
-    .project-2 {
-      width: 100%;
-      height: 20%;
-    }
+    .personal {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 80%;
+      height: auto;
+      margin: 0;
 
-    img {
-      border-radius: 25px;
-      width: 100%;
-      height: 100%;
+      .project-item {
+        text-align: center;
+        padding: 15px;
+        border-radius: 25px;
+        //border: 2px solid $black-font-color;
+      }
+
+      .project-1 {
+        width: 100%;
+        height: 80%;
+        //padding: 25px;
+      }
+      .project-2 {
+        width: 100%;
+        height: 20%;
+      }
+
+      img {
+        border-radius: 25px;
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }
