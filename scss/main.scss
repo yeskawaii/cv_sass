@@ -107,8 +107,9 @@
     display: none !important;
   }
   .nav {
-    width: 50%;
-    height: 90px;
+    min-width: 50%;
+    //width: 50%;
+    //height: 90px;
   }
   .home {
     background-image: linear-gradient(

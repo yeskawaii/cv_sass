@@ -29,18 +29,20 @@
 .nav {
   position: fixed;
   z-index: 2;
+  min-height: 10vh;
   height: auto;
   background-color: transparent;
   top: 5vh;
-  right: 2vw;
-  width: 60%;
+  right: 1vw;
+  width: auto;
+  max-width: 50%;
   border-radius: 25px;
   display: flex;
   justify-content: center;
-  overflow: hidden;
+  //overflow: hidden;
 
   ul {
-    width: 85%;
+    width: auto;
     padding-left: 0;
     display: flex;
     flex-direction: row;
@@ -49,6 +51,7 @@
     max-width: 100%;
     margin: 0;
     gap: 4vw;
+    flex-wrap: wrap;
 
     li {
       list-style: none;
@@ -59,7 +62,7 @@
 
       a {
         padding: 15px;
-        width: 100%;
+        width: 80%;
         text-decoration: none;
         font-size: $font-size-header;
         font-weight: 1000;
