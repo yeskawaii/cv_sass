@@ -30,13 +30,13 @@
 .nav {
   position: fixed;
   z-index: 2;
-  min-height: 10vh;
+  min-height: 2vh;
   height: auto;
   background-color: transparent;
-  top: 5vh;
-  right: 1vw;
+  top: 2vh;
+  right: 5px;
   width: auto;
-  max-width: 50%;
+  max-width: 60vw;
   border-radius: 25px;
   display: flex;
   justify-content: center;
@@ -46,23 +46,25 @@
   padding-left: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  max-width: 100%;
+  max-width: 90%;
   margin: 0;
-  gap: 4vw;
-  flex-wrap: wrap;
+  gap: 3vw;
 }
 .nav ul li {
+  min-height: 15vh;
+  min-width: 5vw;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: auto;
 }
 .nav ul li a {
-  padding: 15px;
-  width: 80%;
+  height: 5vh;
+  min-width: 8vw;
+  width: auto;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: 1000;
@@ -70,16 +72,16 @@
   border-radius: 25px;
   transition: 0.8s;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: 15px;
 }
 .nav ul li a:active {
   color: #ffcb74;
 }
-.nav ul li .active {
-  max-width: 100%;
-  transform: scale(1.3);
+.nav ul .active {
+  max-width: 90%;
+  transform: scale(1.1);
   background-color: #ffcb74;
   color: #3f3f3f;
 }
@@ -537,6 +539,19 @@ main .home .image img {
   }
 }
 @media (max-width: 1200px) and (min-width: 700px) {
+  .nav {
+    left: 45vw;
+    min-width: 60%;
+    width: auto;
+  }
+  .nav ul {
+    min-width: 100%;
+    width: auto;
+  }
+  .nav li {
+    min-width: 80%;
+    width: auto;
+  }
   .computer-content {
     display: block;
   }
@@ -561,7 +576,7 @@ main .home .image img {
     display: none !important;
   }
   .nav {
-    min-width: 50%;
+    max-width: 60%;
   }
   .home {
     background-image: linear-gradient(105deg, #d7d7d7 0%, #f6f6f6 15%, #f6f6f6 35%, #d7d7d7 40%, #111111 40%, #3f3f3f 75%, #3f3f3f 95%, #111111 100%), url("https://www.turgutkaraca.com.tr/wp-content/uploads/2017/03/footer-bg.jpg");

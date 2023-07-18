@@ -71,6 +71,20 @@
 }
 
 @media (max-width: 1200px) and (min-width: 700px) {
+  .nav {
+    left: 45vw;
+    min-width: 60%;
+    width: auto;
+    ul {
+      min-width: 100%;
+      width: auto;
+      //flex-wrap: wrap;
+    }
+    li {
+      min-width: 80%;
+      width: auto;
+    }
+  }
   .computer-content {
     display: block;
   }
@@ -107,7 +121,7 @@
     display: none !important;
   }
   .nav {
-    min-width: 50%;
+    max-width: 60%;
     //width: 50%;
     //height: 90px;
   }
