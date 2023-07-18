@@ -410,9 +410,6 @@ main .home .image img {
   height: auto;
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
-.projects .computer-content .top-gap {
-  margin: 10vh 0 5vh 0;
-}
 .projects .computer-content .personal {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -450,6 +447,29 @@ main .home .image img {
   height: auto;
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
+.contact-me .computer-content .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contact-me .computer-content input[type=text],
+.contact-me .computer-content input[type=email],
+.contact-me .computer-content textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 2.5vh;
+}
+.contact-me .computer-content button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.contact-me .computer-content button:hover {
+  background-color: #45a049;
+}
 
 .mobile-nav {
   position: fixed;
@@ -469,6 +489,10 @@ main .home .image img {
   margin: 0;
   scroll-behavior: smooth;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.top-gap {
+  margin: 15vh 0 5vh 0;
 }
 
 .main-header {
@@ -492,7 +516,7 @@ main .home .image img {
 }
 @media (max-width: 700px) {
   .computer-content {
-    display: none;
+    display: none !important;
   }
   .mobile-content {
     display: block;
@@ -514,7 +538,7 @@ main .home .image img {
     display: block;
   }
   .mobile-content {
-    display: none;
+    display: none !important;
   }
   ul {
     transform: scale(0.8);
@@ -531,7 +555,7 @@ main .home .image img {
     display: block;
   }
   .mobile-content {
-    display: none;
+    display: none !important;
   }
   .nav {
     width: 50%;
