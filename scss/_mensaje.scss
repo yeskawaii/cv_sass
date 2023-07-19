@@ -11,32 +11,5 @@
       $white-font-color 25%,
       $primary-color 100%
     );
-
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 2.5vh;
-    }
-
-    button {
-      width: 100%;
-      padding: 10px;
-      background-color: #4caf50;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #45a049;
-    }
   }
 }

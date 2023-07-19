@@ -449,29 +449,6 @@ main .home .image img {
   height: auto;
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
-.contact-me .computer-content .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-.contact-me .computer-content input[type=text],
-.contact-me .computer-content input[type=email],
-.contact-me .computer-content textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 2.5vh;
-}
-.contact-me .computer-content button {
-  width: 100%;
-  padding: 10px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-.contact-me .computer-content button:hover {
-  background-color: #45a049;
-}
 
 .mobile-nav {
   position: fixed;
