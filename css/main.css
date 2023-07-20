@@ -268,6 +268,7 @@ main .home .image img {
   align-items: center;
   justify-content: center;
   justify-content: space-around;
+  padding: 0 9vw;
   height: auto;
   width: 100%;
 }
@@ -448,6 +449,56 @@ main .home .image img {
   min-height: 100vh;
   height: auto;
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
+}
+.contact-me .computer-content #my-form {
+  width: 60vw;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.contact-me .computer-content #my-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.contact-me .computer-content #my-form input[type=email] {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.contact-me .computer-content #my-form textarea {
+  width: 70%;
+  height: 20vh;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  overflow-y: auto;
+  resize: vertical;
+}
+.contact-me .computer-content #my-form button {
+  background-color: #ffcb74;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contact-me .computer-content #my-form button:hover {
+  background-color: #d83e3e;
+}
+.contact-me .computer-content #my-form-status {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer {
+  min-height: 4vh;
 }
 
 .mobile-nav {

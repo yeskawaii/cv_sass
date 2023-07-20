@@ -179,7 +179,15 @@
         <section class="contact-me" id="contact-me">
             <div class="computer-content">
                 <h1 class="main-header top-gap">Contactame</h1>
-
+                <form id="my-form" action="https://formspree.io/f/xrgwbkdz" method="POST">
+                    <label>Correo:</label>
+                    <input type="email" name="email" required />
+                    <label>Mensaje:</label>
+                    <textarea name="message" id="message" required></textarea>
+                    <br>
+                    <button id="my-form-button">Enviar</button>
+                    <p id="my-form-status"></p>
+                </form>
             </div>
         </section>
     </main>
