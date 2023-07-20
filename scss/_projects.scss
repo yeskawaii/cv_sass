@@ -1,5 +1,9 @@
 .projects {
   .computer-content {
+    h2 {
+      font-size: 3vh;
+    }
+
     @include flexCenter(column);
     justify-content: start;
     flex-wrap: wrap;

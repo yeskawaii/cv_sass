@@ -16,6 +16,9 @@
       font-size: 2.5vw;
       cursor: pointer;
     }
+    h1 {
+      font-size: 3vh;
+    }
 
     .idioma-element {
       @include flexCenter(row);
@@ -50,6 +53,10 @@
     height: 20vh;
     @include flexCenter(column);
     justify-content: start;
+
+    h1 {
+      font-size: 3vh;
+    }
   }
 
   .icons-skills {

@@ -27,7 +27,7 @@
       transition: 0.8s;
       &:hover {
         color: $golden-font-color;
-        transform: scale(1.85);
+        transform: scale(1.2);
       }
     }
   }
@@ -48,6 +48,12 @@ main {
     flex-direction: column;
     //@include flexCenter("column");
     //border: 2px solid black;
+    h1 {
+      font-size: 3.5vh;
+    }
+    h3 {
+      font-size: 2.5vh;
+    }
 
     &-footer {
       @include flexCenter("row");

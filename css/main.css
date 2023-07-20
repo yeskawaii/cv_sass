@@ -14,7 +14,7 @@
   border: 1px solid #cccccc; /* Borde */
   border-radius: 4px; /* Bordes redondeados */
   font-size: 1vw; /* Tamaño de fuente */
-  width: 100%; /* Ancho del select */
+  width: 80%; /* Ancho del select */
   height: 5vh;
 }
 
@@ -95,7 +95,6 @@
   top: 7.5vh;
   left: 5vw;
   display: flex;
-  width: 15vw;
   gap: 25px;
 }
 .logo input {
@@ -103,7 +102,7 @@
   border: none;
   font-size: 14px;
   height: 30px;
-  padding: 15px;
+  padding: 5px;
   color: #ffcb74;
   margin: 0px 25px;
 }
@@ -146,7 +145,7 @@
 }
 .contactos a i:hover {
   color: #ffcb74;
-  transform: scale(1.85);
+  transform: scale(1.2);
 }
 
 section {
@@ -164,6 +163,12 @@ main .separated {
 main .home {
   display: flex;
   flex-direction: column;
+}
+main .home h1 {
+  font-size: 3.5vh;
+}
+main .home h3 {
+  font-size: 2.5vh;
 }
 main .home-footer {
   display: flex;
@@ -221,6 +226,9 @@ main .home .image img {
   font-size: 2.5vw;
   cursor: pointer;
 }
+.about-me .idiomas-info h1 {
+  font-size: 3vh;
+}
 .about-me .idiomas-info .idioma-element {
   display: flex;
   flex-direction: row;
@@ -258,6 +266,9 @@ main .home .image img {
   align-items: center;
   justify-content: center;
   justify-content: start;
+}
+.about-me .container-footer h1 {
+  font-size: 3vh;
 }
 .about-me .icons-skills {
   display: flex;
@@ -410,6 +421,9 @@ main .home .image img {
   height: auto;
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
+.projects .computer-content h2 {
+  font-size: 3vh;
+}
 .projects .computer-content .personal {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -463,9 +477,12 @@ main .home .image img {
 .contact-me .computer-content #my-form label {
   display: block;
   margin-bottom: 5px;
+  font-size: 3vh;
 }
 .contact-me .computer-content #my-form input[type=email] {
   width: 70%;
+  height: 5vh;
+  font-size: 3vh;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #3f3f3f;
@@ -475,6 +492,7 @@ main .home .image img {
   width: 70%;
   height: 20vh;
   padding: 10px;
+  font-size: 3vh;
   margin-bottom: 15px;
   border: 1px solid #3f3f3f;
   border-radius: 3px;
@@ -484,9 +502,10 @@ main .home .image img {
 .contact-me .computer-content #my-form button {
   background-color: #ffcb74;
   color: #111111;
+  font-size: 3vh;
   border: none;
   padding: 10px 20px;
-  border-radius: 3px;
+  border-radius: 25px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }

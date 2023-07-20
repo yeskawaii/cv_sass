@@ -24,10 +24,13 @@
       label {
         display: block;
         margin-bottom: 5px;
+        font-size: 3vh;
       }
 
       input[type="email"] {
         width: 70%;
+        height: 5vh;
+        font-size: 3vh;
         padding: 10px;
         margin-bottom: 15px;
         border: 1px solid $grey-font-color;
@@ -38,6 +41,7 @@
         width: 70%;
         height: 20vh;
         padding: 10px;
+        font-size: 3vh;
         margin-bottom: 15px;
         border: 1px solid $grey-font-color;
         border-radius: 3px;
@@ -48,9 +52,10 @@
       button {
         background-color: $golden-font-color;
         color: $black-font-color;
+        font-size: 3vh;
         border: none;
         padding: 10px 20px;
-        border-radius: 3px;
+        border-radius: 25px;
         cursor: pointer;
         transition: background-color 0.3s ease;
 
