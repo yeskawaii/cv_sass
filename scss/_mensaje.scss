@@ -16,7 +16,7 @@
       width: 60vw;
       margin: 0 auto;
       padding: 20px;
-      background-color: #fff;
+      background-color: rgba($grey-font-color, 0.1);
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
@@ -30,7 +30,7 @@
         width: 70%;
         padding: 10px;
         margin-bottom: 15px;
-        border: 1px solid #ccc;
+        border: 1px solid $grey-font-color;
         border-radius: 3px;
       }
 
@@ -39,15 +39,15 @@
         height: 20vh;
         padding: 10px;
         margin-bottom: 15px;
-        border: 1px solid #ccc;
+        border: 1px solid $grey-font-color;
         border-radius: 3px;
         overflow-y: auto;
         resize: vertical;
       }
 
       button {
-        background-color: #ffcb74;
-        color: #fff;
+        background-color: $golden-font-color;
+        color: $black-font-color;
         border: none;
         padding: 10px 20px;
         border-radius: 3px;
@@ -55,7 +55,7 @@
         transition: background-color 0.3s ease;
 
         &:hover {
-          background-color: #d83e3e;
+          background-color: $red-font-color;
         }
       }
     }
