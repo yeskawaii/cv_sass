@@ -148,7 +148,7 @@ function animarOla() {
   var index = 0;
   function animarElemento() {
     elementos[index].classList.toggle("animate");
-    index++;
+    index = (index + 1) % elementos.length;
   }
   setInterval(animarElemento, 150);
 }
