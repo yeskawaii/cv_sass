@@ -12,8 +12,9 @@
   padding: 8px 12px; /* Espaciado interno */
   border: 1px solid #cccccc; /* Borde */
   border-radius: 4px; /* Bordes redondeados */
-  font-size: 14px; /* Tamaño de fuente */
-  width: 100px; /* Ancho del select */
+  font-size: 1vw; /* Tamaño de fuente */
+  width: 80%; /* Ancho del select */
+  height: 5vh;
 }
 
 .lenguage:focus {
@@ -92,8 +93,7 @@
 
 .spin {
   margin: 0 !important;
-  height: 39px;
-  width: 39px;
+  font-size: 5vh;
   animation: spin 8s infinite linear;
 }
 
@@ -101,9 +101,6 @@
   position: absolute;
   top: 7.5vh;
   left: 5vw;
-  width: auto;
-  height: auto;
-
   display: flex;
   gap: 25px;
   input {

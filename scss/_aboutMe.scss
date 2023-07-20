@@ -37,6 +37,7 @@
 
   .container {
     @include flexCenter(column);
+    justify-content: start;
     margin: 0;
     width: 100%;
     min-height: 80vh;
