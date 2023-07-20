@@ -1,3 +1,26 @@
 footer {
-  min-height: 4vh;
+  min-height: 5vh;
+  height: auto;
+  font-size: $font-size-subtitles;
+  background-color: $black-font-color;
+  color: $golden-font-color;
+  .icons-footer {
+    gap: 25px;
+    padding: 16px 0px 8px 0;
+    @include flexCenter(row);
+  }
+  .text-footer {
+    padding: 8px 0px 16px 0;
+    @include flexCenter(row);
+  }
+  .line {
+    height: 5px;
+    width: 20%;
+    border-radius: 25px;
+    background-color: $golden-font-color;
+  }
+  a {
+    color: $golden-font-color;
+    transition: color 0.5s ease;
+  }
 }

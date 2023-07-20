@@ -216,3 +216,8 @@ async function handleSubmit(event) {
     });
 }
 form.addEventListener("submit", handleSubmit);
+
+//* Codigo para la fecha actual*/
+
+var currentYear = new Date().getFullYear();
+document.getElementById("current-year").textContent = currentYear;
