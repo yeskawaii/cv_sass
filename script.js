@@ -18,6 +18,12 @@ const data = {
     value15: "Ingles en UMSNH morelia nivel: C1",
     value16: "Japones en UMSNH morelia nivel: N4",
     value17: "Conocimientos",
+    value18: "Proyectos",
+    value19: "Portafolio",
+    value20: "Contáctame",
+    value21: "Correo:",
+    value22: "Mensaje:",
+    value23: "Enviar",
   },
   English: {
     value1: "Home",
@@ -38,6 +44,12 @@ const data = {
     value15: "English on UMSNH morelia level: C1",
     value16: "Japanese on UMSNH morelia level: N4",
     value17: "knowledge",
+    value18: "Projects",
+    value19: "Portfolio",
+    value20: "Contact Me",
+    value21: "Email:",
+    value22: "Menssage:",
+    value23: "Send",
   },
   日本語: {
     value1: "ホーム",
@@ -57,6 +69,12 @@ const data = {
     value15: "UMSNH、モレリア大学　の　英語　レベル：　C1",
     value16: "UMSNH、モレリア大学　の　日本語　レベル：　N4",
     value17: "知識",
+    value18: "プロジェクト",
+    value19: "ポートフォリオ",
+    value20: "メールをします",
+    value21: "メールアドレス：",
+    value22: "メッセージ本文:",
+    value23: "送信する",
   },
 };
 
@@ -118,9 +136,16 @@ lenguageOption.addEventListener("change", function () {
       document.getElementById("est-3").innerHTML = selectedData.value15;
       document.getElementById("est-4").innerHTML = selectedData.value16;
       document.getElementById("conocimiento").innerHTML = selectedData.value17;
-      //      document.getElementById("est-4").innerHTML = selectedData.value16;
-      //      document.getElementById("est-4").innerHTML = selectedData.value16;
-      //      document.getElementById("est-4").innerHTML = selectedData.value16;
+      document.getElementById("proyectos-titulo").innerHTML =
+        selectedData.value18;
+      document.getElementById("portafolio-proyecto").innerHTML =
+        selectedData.value19;
+      document.getElementById("contactame-titulo").innerHTML =
+        selectedData.value20;
+      document.getElementById("email").innerHTML = selectedData.value21;
+      document.getElementById("message").innerHTML = selectedData.value22;
+      document.getElementById("my-form-button").innerHTML =
+        selectedData.value23;
 
       //console.log(value1 + " " + value2);
     }
