@@ -11,7 +11,7 @@
   padding: 8px 12px;
   border: 1px solid #cccccc;
   border-radius: 4px;
-  font-size: 1.5vh;
+  font-size: calc(1em + 1.5vh);
   width: 80%;
   height: 5vh;
 }

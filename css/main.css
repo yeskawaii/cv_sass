@@ -12,7 +12,7 @@
   padding: 8px 12px;
   border: 1px solid #cccccc;
   border-radius: 4px;
-  font-size: 1.5vh;
+  font-size: calc(1em + 1.5vh);
   width: 80%;
   height: 5vh;
 }
@@ -409,6 +409,9 @@ main .home .image img {
   transform: scale(0.8);
 }
 
+.projects {
+  background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
+}
 .projects .computer-content {
   display: flex;
   flex-direction: column;
@@ -418,7 +421,6 @@ main .home .image img {
   flex-wrap: wrap;
   min-height: 100vh;
   height: auto;
-  background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
 .projects .computer-content h2 {
   font-size: 3vh;
@@ -453,6 +455,9 @@ main .home .image img {
   height: 100%;
 }
 
+.contact-me {
+  background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
+}
 .contact-me .computer-content {
   display: flex;
   flex-direction: column;
@@ -462,7 +467,6 @@ main .home .image img {
   flex-wrap: wrap;
   min-height: 100vh;
   height: auto;
-  background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
 .contact-me .computer-content #my-form {
   width: 60vw;

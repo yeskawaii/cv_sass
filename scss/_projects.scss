@@ -1,4 +1,10 @@
 .projects {
+  background: radial-gradient(
+    circle,
+    white 0%,
+    $white-font-color 25%,
+    $primary-color 100%
+  );
   .computer-content {
     h2 {
       font-size: 3vh;
@@ -9,12 +15,6 @@
     flex-wrap: wrap;
     min-height: 100vh;
     height: auto;
-    background: radial-gradient(
-      circle,
-      white 0%,
-      $white-font-color 25%,
-      $primary-color 100%
-    );
 
     .personal {
       display: grid;
