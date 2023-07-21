@@ -588,6 +588,7 @@ footer a {
 }
 .mobile-content .menu-nav-mobile .menu-nav a:active {
   transform: scale(1.1);
+  transform: translateX(-25px);
 }
 
 .list {
