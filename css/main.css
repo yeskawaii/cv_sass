@@ -553,17 +553,59 @@ footer a {
   transition: color 0.5s ease;
 }
 
-.mobile-nav {
-  position: fixed;
-}
-
 .mobile-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+.mobile-content .menu-nav-mobile {
+  position: fixed;
+  top: 30px;
+  right: 15px;
+  text-align: end;
+}
+.mobile-content .menu-nav-mobile button {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+.mobile-content .menu-nav-mobile .nav-icon {
+  font-size: 5vh;
+}
+.mobile-content .menu-nav-mobile .menu-nav {
+  text-align: start;
+}
+.mobile-content .menu-nav-mobile .menu-nav li {
+  margin-bottom: 1em;
+  list-style: none;
+}
+.mobile-content .menu-nav-mobile .menu-nav a {
+  text-decoration: none;
+  font-size: 2vh;
+  color: #111111;
+}
 
+.list {
+  display: none;
+}
+
+.show-mobile {
+  display: block !important;
+  animation: fadeInDown 1s ease;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .main-header-m {
   margin-bottom: 1em;
   font-size: 4vh;
