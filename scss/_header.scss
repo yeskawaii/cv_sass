@@ -6,14 +6,13 @@
 }
 
 .lenguage {
-  //appearance: none; /* Elimina los estilos nativos del navegador */
-  background-color: none; /* Color de fondo */
-  color: $black-font-color; /* Color de texto */
-  padding: 8px 12px; /* Espaciado interno */
-  border: 1px solid #cccccc; /* Borde */
-  border-radius: 4px; /* Bordes redondeados */
-  font-size: 1vw; /* Tamaño de fuente */
-  width: 80%; /* Ancho del select */
+  background-color: none;
+  color: $black-font-color;
+  padding: 8px 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 1.5vh;
+  width: 80%;
   height: 5vh;
 }
 
