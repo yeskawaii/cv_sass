@@ -578,12 +578,12 @@ footer a {
   text-align: start;
 }
 .mobile-content .menu-nav-mobile .menu-nav li {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   list-style: none;
 }
 .mobile-content .menu-nav-mobile .menu-nav a {
   text-decoration: none;
-  font-size: 2vh;
+  font-size: 3vh;
   color: #d83e3e;
 }
 
