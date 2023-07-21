@@ -576,17 +576,19 @@ footer a {
 }
 .mobile-content .menu-nav-mobile .menu-nav {
   text-align: start;
+  background-color: #111111;
+  border-radius: 25px;
+  padding: 50px;
 }
 .mobile-content .menu-nav-mobile .menu-nav li {
   margin-bottom: 1.5em;
   list-style: none;
-  background-color: transparent;
 }
 .mobile-content .menu-nav-mobile .menu-nav a {
   text-decoration: none;
   font-size: 3vh;
-  color: #d83e3e;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  color: #f6f6f6;
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.3);
 }
 .mobile-content .menu-nav-mobile .menu-nav a:active {
   transform: scale(1.1);
