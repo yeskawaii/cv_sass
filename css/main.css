@@ -557,6 +557,25 @@ footer a {
   position: fixed;
 }
 
+.mobile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-header-m {
+  margin-bottom: 1em;
+  font-size: 4vh;
+  padding: 1.2vw;
+  border: 3px solid black;
+  -o-border-image: linear-gradient(60deg, #ffcb74 0%, transparent 35%, #ffcb74 40%, transparent 75%, #ffcb74 76%, transparent 100%);
+     border-image: linear-gradient(60deg, #ffcb74 0%, transparent 35%, #ffcb74 40%, transparent 75%, #ffcb74 76%, transparent 100%);
+  border-image-slice: 20%;
+  background-color: transparent;
+  display: inline-block;
+}
+
 .mobile-notice {
   height: 100vh;
   display: flex;
@@ -596,12 +615,12 @@ footer a {
     transform: rotate(360deg);
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 721px) {
   .computer-content {
     display: none !important;
   }
   .mobile-content {
-    display: block;
+    display: flex;
   }
   .nav {
     display: none;
@@ -615,7 +634,7 @@ footer a {
     background-image: linear-gradient(160deg, #d7d7d7 0%, #f6f6f6 15%, #f6f6f6 35%, #d7d7d7 70%, #111111 70%, #3f3f3f 85%, #3f3f3f 95%, #111111 100%), url("https://www.turgutkaraca.com.tr/wp-content/uploads/2017/03/footer-bg.jpg");
   }
 }
-@media (max-width: 1200px) and (min-width: 700px) {
+@media (max-width: 1200px) and (min-width: 721px) {
   .nav {
     font-size: auto;
     left: 42vw;

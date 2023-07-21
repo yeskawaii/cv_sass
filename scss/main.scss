@@ -39,12 +39,12 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 721px) {
   .computer-content {
     display: none !important;
   }
   .mobile-content {
-    display: block;
+    display: flex;
   }
   .nav {
     display: none;
@@ -70,7 +70,7 @@
   }
 }
 
-@media (max-width: 1200px) and (min-width: 700px) {
+@media (max-width: 1200px) and (min-width: 721px) {
   .nav {
     font-size: auto;
     left: 42vw;

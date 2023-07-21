@@ -2,6 +2,28 @@
   position: fixed;
 }
 
+.mobile-content {
+  @include flexCenter(column);
+}
+.main-header-m {
+  margin-bottom: 1em;
+  font-size: 4vh;
+  padding: 1.2vw;
+  border: 3px solid black;
+  border-image: linear-gradient(
+    60deg,
+    $golden-font-color 0%,
+    transparent 35%,
+    $golden-font-color 40%,
+    transparent 75%,
+    $golden-font-color 76%,
+    transparent 100%
+  );
+  border-image-slice: 20%;
+  background-color: transparent;
+  display: inline-block;
+  //animation: spin 8s infinite;
+}
 .mobile-notice {
   height: 100vh;
   @include flexCenter(row);
