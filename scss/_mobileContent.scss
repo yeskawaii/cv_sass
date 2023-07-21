@@ -23,11 +23,13 @@
       li {
         margin-bottom: 1.5em;
         list-style: none;
+        background-color: transparent;
       }
       a {
         text-decoration: none;
         font-size: 3vh;
         color: $red-font-color;
+        box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.3);
 
         &:active {
           transform: scale(1.1);
