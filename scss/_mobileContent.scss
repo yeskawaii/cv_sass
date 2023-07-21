@@ -28,6 +28,10 @@
         text-decoration: none;
         font-size: 3vh;
         color: $red-font-color;
+
+        &:active {
+          transform: scale(1.1);
+        }
       }
     }
   }

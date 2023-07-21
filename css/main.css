@@ -586,6 +586,9 @@ footer a {
   font-size: 3vh;
   color: #d83e3e;
 }
+.mobile-content .menu-nav-mobile .menu-nav a:active {
+  transform: scale(1.1);
+}
 
 .list {
   display: none;
