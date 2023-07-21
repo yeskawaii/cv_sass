@@ -224,7 +224,7 @@ document.getElementById("current-year").textContent = currentYear;
 
 //* Codigo para navbar mobile */
 
-document.getElementById("nav").addEventListener("click", function () {
+document.getElementById("nav-mobile").addEventListener("click", function () {
   var navMenu = document.getElementById("nav-menu-list-mobile");
   navMenu.classList.toggle("show-mobile");
 });
