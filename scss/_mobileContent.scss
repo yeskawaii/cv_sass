@@ -40,6 +40,17 @@
       }
     }
   }
+
+  .slider {
+    width: 100%;
+
+    &-inner {
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
 }
 
 .list {

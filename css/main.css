@@ -213,7 +213,7 @@ main .home .image img {
 .about-me {
   background: radial-gradient(circle, white 0%, #f6f6f6 25%, #d7d7d7 100%);
 }
-.about-me .idiomas-info {
+.about-me .computer-content .idiomas-info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -221,14 +221,14 @@ main .home .image img {
   height: 100%;
   width: 100%;
 }
-.about-me .idiomas-info i {
+.about-me .computer-content .idiomas-info i {
   font-size: 2.5vw;
   cursor: pointer;
 }
-.about-me .idiomas-info h1 {
+.about-me .computer-content .idiomas-info h1 {
   font-size: 3vh;
 }
-.about-me .idiomas-info .idioma-element {
+.about-me .computer-content .idiomas-info .idioma-element {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -238,14 +238,14 @@ main .home .image img {
   width: 70%;
   margin-bottom: 2vh;
 }
-.about-me .idiomas-info .idioma-element img {
+.about-me .computer-content .idiomas-info .idioma-element img {
   font-size: 4vw;
   cursor: pointer;
 }
-.about-me .idiomas-info .idioma-element h2 {
+.about-me .computer-content .idiomas-info .idioma-element h2 {
   font-size: 3vh;
 }
-.about-me .container {
+.about-me .computer-content .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -256,7 +256,7 @@ main .home .image img {
   min-height: 80vh;
   height: auto;
 }
-.about-me .container-footer {
+.about-me .computer-content .container-footer {
   margin: 0;
   width: 100%;
   height: 20vh;
@@ -266,10 +266,10 @@ main .home .image img {
   justify-content: center;
   justify-content: start;
 }
-.about-me .container-footer h1 {
+.about-me .computer-content .container-footer h1 {
   font-size: 3vh;
 }
-.about-me .icons-skills {
+.about-me .computer-content .icons-skills {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -279,27 +279,27 @@ main .home .image img {
   height: auto;
   width: 100%;
 }
-.about-me .bigger-icon {
+.about-me .computer-content .bigger-icon {
   font-size: 4vw;
   cursor: pointer;
 }
-.about-me img {
+.about-me .computer-content img {
   cursor: pointer;
   width: 4vw;
   transition: all 0.9s ease;
 }
-.about-me img:hover {
+.about-me .computer-content img:hover {
   transform: scale(0.8);
 }
-.about-me .animate {
+.about-me .computer-content .animate {
   animation: moverArribaAbajo 2s infinite;
 }
-.about-me .link-about {
+.about-me .computer-content .link-about {
   color: #d83e3e;
   transition: all 0.5s ease;
   animation: moverLados 2s infinite;
 }
-.about-me .link-about:hover {
+.about-me .computer-content .link-about:hover {
   color: #3f3f3f;
   transform: scale(0.5);
 }
@@ -331,81 +331,81 @@ main .home .image img {
     transform: translateY(0);
   }
 }
-.about-me #html-icon {
+.about-me .computer-content #html-icon {
   color: #d84924;
   transition: all 0.9s ease;
 }
-.about-me #html-icon:hover {
+.about-me .computer-content #html-icon:hover {
   transform: scale(0.8);
 }
-.about-me #css-icon {
+.about-me .computer-content #css-icon {
   color: #214ce5;
   transition: all 0.9s ease;
 }
-.about-me #css-icon:hover {
+.about-me .computer-content #css-icon:hover {
   transform: scale(0.8);
 }
-.about-me #sass-icon {
+.about-me .computer-content #sass-icon {
   color: #c36291;
   transition: all 0.9s ease;
 }
-.about-me #sass-icon:hover {
+.about-me .computer-content #sass-icon:hover {
   transform: scale(0.8);
 }
-.about-me #js-icon {
+.about-me .computer-content #js-icon {
   color: #ead41c;
   transition: all 0.9s ease;
 }
-.about-me #js-icon:hover {
+.about-me .computer-content #js-icon:hover {
   transform: scale(0.8);
 }
-.about-me #php-icon {
+.about-me .computer-content #php-icon {
   color: #828bb4;
   transition: all 0.9s ease;
 }
-.about-me #php-icon:hover {
+.about-me .computer-content #php-icon:hover {
   transform: scale(0.8);
 }
-.about-me #python-icon {
+.about-me .computer-content #python-icon {
   color: #376c9b;
   transition: all 0.9s ease;
 }
-.about-me #python-icon:hover {
+.about-me .computer-content #python-icon:hover {
   transform: scale(0.8);
 }
-.about-me #java-icon {
+.about-me .computer-content #java-icon {
   color: #0981bd;
   transition: all 0.9s ease;
 }
-.about-me #java-icon:hover {
+.about-me .computer-content #java-icon:hover {
   transform: scale(0.8);
 }
-.about-me #git-icon {
+.about-me .computer-content #git-icon {
   color: #f14f34;
   transition: all 0.9s ease;
 }
-.about-me #git-icon:hover {
+.about-me .computer-content #git-icon:hover {
   transform: scale(0.8);
 }
-.about-me #laravel-icon {
+.about-me .computer-content #laravel-icon {
   color: #ff291a;
   transition: all 0.9s ease;
 }
-.about-me #laravel-icon:hover {
+.about-me .computer-content #laravel-icon:hover {
   transform: scale(0.8);
 }
-.about-me #node-icon {
+.about-me .computer-content #node-icon {
   color: #21ab58;
   transition: all 0.9s ease;
 }
-.about-me #node-icon:hover {
+.about-me .computer-content #node-icon:hover {
   transform: scale(0.8);
 }
-.about-me #bootstrap-icon {
+.about-me .computer-content #bootstrap-icon {
   color: #7712ee;
   transition: all 0.9s ease;
 }
-.about-me #bootstrap-icon:hover {
+.about-me .computer-content #bootstrap-icon:hover {
   transform: scale(0.8);
 }
 
@@ -593,6 +593,13 @@ footer a {
 .mobile-content .menu-nav-mobile .menu-nav a:active {
   transform: scale(1.1);
   transform: translateX(-25px);
+}
+.mobile-content .slider {
+  width: 100%;
+}
+.mobile-content .slider-inner img {
+  width: 150px;
+  height: 150px;
 }
 
 .list {
