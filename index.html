@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julio Yescas Portfolio</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
@@ -192,18 +193,27 @@
             </div>
             <div class="mobile-content">
                 <h1 class="main-header-m">Acerca de mi</h1>
-                <div class="slider">
-                    <div class="slider-inner">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png"
-                            alt="Imagen 1">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/250px-CSS3_logo_and_wordmark.svg.png"
-                            alt="Imagen 2">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png"
-                            alt="Imagen 3">
-                        <!-- Agrega más imágenes aquí -->
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png"
+                                alt="logo html"></div>
+                        <div class="swiper-slide"><img src="" alt="logo css"></div>
+                        <div class="swiper-slide"><img src="" alt="logo scss"></div>
+                        <div class="swiper-slide"><img src="" alt="logo js"></div>
+                        <!-- <div class="swiper-slide"><img src="" alt="logo css"></div>
+                        <div class="swiper-slide"><img src="" alt="logo js"></div> -->
+
                     </div>
-                    <a class="slider-prev">&lsaquo;</a>
-                    <a class="slider-next">&rsaquo;</a>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
 
@@ -252,6 +262,7 @@
             <p>Copyright &copy;<span id="current-year"></span></p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/6d3aa0f432.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>

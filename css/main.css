@@ -643,6 +643,19 @@ footer a {
   align-items: center;
 }
 
+.swiper {
+  width: 50%;
+  height: 200px;
+}
+.swiper img {
+  height: 150px;
+  width: 150px;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
 * {
   margin: 0;
   scroll-behavior: smooth;

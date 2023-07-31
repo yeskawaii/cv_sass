@@ -228,3 +228,22 @@ document.getElementById("nav-mobile").addEventListener("click", function () {
   var navMenu = document.getElementById("nav-menu-list-mobile");
   navMenu.classList.toggle("show-mobile");
 });
+
+//* swipper */
+
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
