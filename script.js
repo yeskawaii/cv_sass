@@ -232,18 +232,12 @@ document.getElementById("nav-mobile").addEventListener("click", function () {
 //* swipper */
 
 const swiper = new Swiper(".swiper", {
-  // Optional parameters
   direction: "horizontal",
   loop: true,
-
-  // If we need pagination
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
   pagination: {
     el: ".swiper-pagination",
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
   },
 });
