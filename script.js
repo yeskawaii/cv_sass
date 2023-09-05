@@ -229,6 +229,15 @@ document.getElementById("nav-mobile").addEventListener("click", function () {
   navMenu.classList.toggle("show-mobile");
 });
 
+const navMenu = document.getElementById("nav-menu-list-mobile");
+const menuLinks = navMenu.querySelectorAll("a");
+
+menuLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    navMenu.classList.remove("show-mobile");
+  });
+});
+
 //* swipper */
 
 const swiper = new Swiper(".swiper", {
