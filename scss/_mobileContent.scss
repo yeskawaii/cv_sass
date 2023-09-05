@@ -131,3 +131,16 @@
     align-items: center;
   }
 }
+
+.separador-pintado {
+  background: linear-gradient(
+    to right,
+    transparent,
+    #ffd700,
+    transparent
+  ); /* Color dorado */
+  height: 3px; /* Grosor de la línea */
+  width: 50%; /* Ancho de la línea (ajusta según tus necesidades) */
+  margin: 20px auto; /* Centra horizontalmente, ajusta el margen según necesites */
+  border-radius: 10px; /* Borde redondeado para curvas */
+}
