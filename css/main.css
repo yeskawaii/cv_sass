@@ -660,6 +660,20 @@ footer a {
   text-align: center;
 }
 
+.experiencia_mobile {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.experiencia_mobile .center-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0;
   scroll-behavior: smooth;
